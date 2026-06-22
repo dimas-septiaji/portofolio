@@ -9,12 +9,22 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
+    /* ─── HIDE SCROLLBAR ─── */
+    html, body {
+      scrollbar-width: none;        /* Firefox */
+      -ms-overflow-style: none;     /* IE / Edge */
+    }
+    html::-webkit-scrollbar,
+    body::-webkit-scrollbar {
+      display: none;                /* Chrome / Safari / Opera */
+    }
+
     /* ─── ABOUT PAGE SECTION ─── */
     #about-hero {
       position: relative;
       width: 100%;
       min-height: 100vh;
-      background: #0b0c10;
+      background: #0b0c10
       overflow: hidden;
     }
 
@@ -146,12 +156,12 @@
     }
 
     /* ─── DIVIDER ─── */
-    .about-divider {
+    /* .about-divider {
       width: 48px;
       height: 1.5px;
       background: linear-gradient(90deg, rgba(100,200,255,0.6), transparent);
       margin: 12px 0 16px;
-    }
+    } */
 
 
     /* ─── FADE IN ANIMATIONS ─── */
